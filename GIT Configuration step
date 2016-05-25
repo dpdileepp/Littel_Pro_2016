@@ -6,5 +6,9 @@ Now that your changes have been verified in production, it is time to merge your
 
 Once merged, Pull Requests preserve a record of the historical changes to your code. Because they're searchable, they let anyone go back in time to understand why and how a decision was made.
 
+distributed Version Control Systems (DVCSs) 
+Getting a Git Repository
 
-
+Ignoring Files
+you can create a file listing patterns to match them named .gitignore.
+The first line tells Git to ignore any files ending in “.o” or “.a” – object and archive files that may be the product of building your code
